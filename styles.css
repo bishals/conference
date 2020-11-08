@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* Header section styling */
+.header, .home-info-section{
+    width: 100%;
+    height: 200px;
+    background-color: #293f50;
+    color: white;
+    position: relative;
+}
+.logo{
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 2rem;
+    left: 25%;
+    transform: translateX(-50%);
+    -webkit-text-stroke: 1px rgb(114, 189, 91);
+    color: transparent;
+}
+.header-date, .navbar{
+    position: absolute;
+}
+.header-date{
+   top: 3rem;
+   right: 16rem;
+}
+.navbar{
+    top: 0rem;
+    right: 13rem;
+}
+.nav-container{
+    list-style-type: none;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    
+}
+.nav-item{
+    display: inline-block;
+    margin: 5px 10px;
+   
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+/* Home page information section styling */
+.home-info-section{
+    text-align: center;
+}
+.info-title{
+    font-size: 2rem;
+    color: transparent;
+    -webkit-text-stroke: 0.5px white;
+
+}
+.home-info-section .info-desc{
+    color: white;
+    line-height: 1.5rem;
+}
+
+.register-btn{
+    margin-top: 1rem;
+    padding: .8rem 1rem;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.btn-link{
+    text-decoration: none;
+    color: white;
+}
+/* image section styling */
+.image-section{
+    padding: 3rem 26rem;
+    display: flex;
+    text-align: center;
+}
+
+.image-title{
+    margin-bottom: 1rem;
+}
+.image-thumbnail{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.image-caption{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.image-desc{
+    padding: .5rem 1.5rem;
+}
+/* footer styling */
+.footer{
+    background-color: #293f50;
+    color: white;
+    position: relative;
+    height: 120px;
+}
+.copyright{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+}
+
+.footer-nav .nav-container{
+    position: absolute;
+    margin-top: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-nav .nav-link{
+    font-size: 0.8rem;
+}
+
+/* speaker page styling */
+/* speaker info section */
+.info-section{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, rgb(129, 185, 189), white);
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 1.5rem;
+   
+}
+.info-header{
+    font-size: 2rem;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.info-desc{
+    color: rgb(102, 99, 99);
+}
+
+/* speaker detail section styling */
+.speaker-details{
+    display: flex;
+    color: gray;
+    
+}
+.speaker-details-description{
+    width: 40%;
+    margin: 1rem auto;
+}
+
+.speaker-name{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: .8rem;
+    color: #293f50;
+}
+.speaker-profession, .speaker-quote-title{
+    text-transform: uppercase;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.speaker-biography br{
+    margin-bottom: 2rem;
+}
+
+.speaker-quote{
+    margin-bottom: 3rem;
+}
+.speaker-details-image{
+    transform: translate(-15rem,5rem);
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 5px;
+    width: 300px;
+    height: 180px;
+}
+.speaker-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transform: translate(5rem, -5rem);
+    margin-top: 2rem;
+}
+.speaker-contact{
+    text-align: center;
+    margin-top: -4rem;
+    color: rgb(143, 141, 141);
+}
+
+/* styling for schedule page  */
+/* main section */
+.schedule-desc{
+    width: 100%;
+    height: auto;
+    /* background: gray; */
+    padding: 1rem;
+}
+table.schedule-section{
+    margin: 10px auto;
+}
+.row-group:first-child th{
+    font-size: 2rem;
+    color: #293f50;
+}
+/* .row-group:nth-of-type(2n+1){
+    background: darkkhaki;
+}
+.row-group:nth-of-type(2n){
+    background: cyan;
+} */
+.row-group:not(:last-child) > td{
+    border-bottom: 2px solid gray;
+}
+.row-group > td, .row-group>th{
+    color: rgba(156, 155, 155, 0.89);
+    padding: 1.5rem 2rem;
+    
+}
+colgroup col{
+    width: 400px; 
+}
+.speaker > th{
+    text-align: left;
+    font-size: 1.5rem;
+    color: #293f50;
+}
+.topic > td {
+    color: gray;
+}
+table,th,td{
+    border-collapse: collapse;
+}
+
+/* venue section styling */
+
+.location-info{
+    display:flex ;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+.location-name{
+    padding: .5rem 3rem;
+    margin-right: 2rem;
+    
+}
+.address{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.address-name{
+    margin-top: 2rem;
+    color: #293f50;
+    font-size: 2rem;
+}
+a.website{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+.telephone{
+    margin-top: 10px;
+}
+
+/* register section styling */
+.registration-section{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.registration-details{
+    width: 40%;
+    line-height: 1.4rem;
+    padding: 1rem 2rem;
+}
+.registration-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.registration-price{
+    text-transform: uppercase;
+}
+.registration-intro, .registration-price{
+    margin-bottom: 1.5rem;
+}
+.registration-reason li{
+    margin-left: 3rem;
+}
+.form{
+    padding: 1rem 2rem;
+    width: 30%;
+}
+.input-section{
+    margin-bottom: 1rem;
+}
+.input-section br{
+    margin-bottom: .5rem;
+}
+.input-section > label{
+    font-size: 1.2rem;
+   
+}
+.registration-title, .input-section > label{
+    color: #293f50;
+}
+.input-section > input{
+    padding: .5rem;
+    font-size: 1.2rem;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.registration-price, .registration-intro, .registration-reason-list{
+    color: rgba(156, 155, 155, 0.89);
+}
+#quantity{
+    font-size: 1.2rem;
+    padding: .4rem .8rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#submit{
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color:  #293f50;
+    color: white;
+}
